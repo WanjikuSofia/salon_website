@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf0f0; /* Light pink background for a soft feel */
+}
+
+header {
+  background-color: #ff6f91; /* Soft pinkish color */
+  color: white;
+  text-align: center;
+  padding: 60px 20px; /* Increased padding for a more spacious look */
+}
+
+nav {
+  background-color: #ff77b9; /* Light pink color for the navbar */
+  padding: 8px 0; /* Smaller navbar */
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff6f91; /* Hover effect for a fun, girly feel */
+}
+
+section {
+  margin: 30px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ff6f91;
+  color: white;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.gallery-row {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.gallery-item {
+  flex: 1;
+  max-width: 45%; /* Ensures images are not too wide */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden; /* Makes sure images don't overflow */
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures the images fit properly within the container */
+  border-radius: 10px; /* Adds rounded corners for a softer look */
+}
+
+.gallery-item:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+h1, h2 {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+#about-us, #contact {
+  margin: 20px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
